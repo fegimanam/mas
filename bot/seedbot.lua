@@ -230,7 +230,7 @@ function create_config( )
     sudo_users ={118333567,75213323,139990182,121069994},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[SULTAN v2 
 
 Admins
 @alifengi 
@@ -238,10 +238,11 @@ Admins
 @dawsh_SaLvAdoR
 
 Special thanks to
-wilson
 reza cloner
 sara cloner
+and more friend
 
+CHANNEL : @sultanbotch
 
 ]],
     help_text_realm = [[
@@ -317,6 +318,9 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+CHANNEL : @sultanbotch
+
 ]],
     help_text = [[
 Commands list :
@@ -423,6 +427,8 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+CHANNEL : @sultanbotch
 
 ]]
   }
