@@ -1,12 +1,12 @@
 local function run(msg)
 if msg.text == "سلام" then
-	return "؟سلام عشقم خوبی"
+	return "سلام علیکم"
 end
 if msg.text == "کیر" then
 	return "تو کسس ننت"
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "farsi beharf goshad"
 end
 if msg.text == "hello" then
 	return "Hi honey"
@@ -21,7 +21,7 @@ if msg.text == "salam" then
 	return "va aleykol asalam"
 end
 if msg.text == "ali" then
-	return "با باباییم چیکار داری؟"
+	return "ali bia in pashmak karet dare"
 end
 if msg.text == "ناموسا" then
 	return "ننت و آقام چالوسن"
@@ -32,14 +32,14 @@ end
 if msg.text == "ZAC" then
 	return "Barash bezan sak"
 end
-if msg.text == "pob" then
-	return "Yes?"
+if msg.text == "sultan" then
+	return "jan?"
 end
 if msg.text == "خوبی" then
 	return "فدات تو خوبی"
 end	
-if msg.text == "Pob" then
-	return "What?"
+if msg.text == "Sultan" then
+	return "jan?"
 end
 if msg.text == "bot" then
 	return "hum?"
@@ -63,10 +63,7 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
 		"^[Bb]ye$",
 		"^?$",
 		"^سلام$",
@@ -76,7 +73,8 @@ return {
 		"^ناموسا$",
 		"^ali$",
 		"^Ali$",
-		"^pob$",
+		"^Sultan$",
+		"^sultan$",
 		"^کیر$",
 		"^[Ss]alam$",
 		}, 
